@@ -1,0 +1,18 @@
+@import './../main.scss';
+
+html,
+body {
+  font-family: $font-family-sans-serif;
+  font-size: $font-size__m;
+  height: 100%;
+  margin: $base-vertical $base-horizontal;
+  background-color: $color-light-brown;
+}
+.hostList__wrapper__grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-auto-rows: 1fr;
+    gap: $base-horizontal;
+    grid-auto-rows: minmax(100px, auto);
+}

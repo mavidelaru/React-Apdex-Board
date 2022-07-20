@@ -1,0 +1,31 @@
+// COLORS 
+//  _____________________________________________
+$color-white: #fff;
+$color-dark-grey:#4a4a4a;
+$color-light-brown:#F5F5F5;
+
+
+// DISTANCES 
+//  _____________________________________________
+$base-vertical: 30px;
+$base-horizontal: 30px;
+$base-small-vertical: 23px;
+$base-small-horitzontal: 23px;
+
+// FONTS 
+//  _____________________________________________
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+//  Sizes
+$font-size-base: 14px;
+$font-size-h1: floor(($font-size-base * 2.6)); // ~36px
+$font-size-large: ceil(($font-size-base * 1.25)); // ~18px
+$font-size__m: ceil(1.09 * $font-size-base)!default; // 16px
+$font-size__xs: ceil(0.86 * $font-size-base); // 13px
+
+//  line-height
+$titel__line-height: 43px;
+$sub-title__line-height: 22px;
+$text__line-height: 19px;
+
+

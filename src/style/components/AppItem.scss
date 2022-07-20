@@ -1,0 +1,22 @@
+@import './../main.scss';
+
+li{
+    margin-bottom: $base-small-vertical;
+    list-style: none;
+    color: $color-dark-grey;
+    .appitem__apdex{
+        font-size: $font-size__xs;
+        margin-right: $base-small-horitzontal;
+    }
+    .appitem__app-name{
+        font-size:$font-size__m;
+    }
+}
+li:last-child{
+    margin-bottom: 0px;
+}
+
+// SWAL
+.swal-text {
+    text-align: center;
+}

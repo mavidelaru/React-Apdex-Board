@@ -1,0 +1,14 @@
+@import './../main.scss';
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        font-size: $font-size-h1;
+        line-height: $titel__line-height;
+    }
+    input:checked{ 
+        box-shadow: inset 0 0 0 20px lightgreen; 
+    }
+}

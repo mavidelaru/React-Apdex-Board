@@ -1,0 +1,21 @@
+@import './../main.scss';
+
+    
+section{
+   .hostList__wrapper{
+    background-color: $color-white;
+    padding: $base-vertical $base-horizontal;
+    margin-bottom:$base-vertical;
+        h2{
+            font-size: $font-size__m;
+            margin: 0px auto $base-small-vertical;
+        }
+    } 
+}
+
+section.hostList__wrapper__grid{
+    .hostList__wrapper{
+        max-width: 375px;
+        margin:auto;
+    }
+}
